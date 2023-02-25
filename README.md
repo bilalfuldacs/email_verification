@@ -1,3 +1,11 @@
+php artisan make:mail SignupEmail (run this command)
+
+in build function you pass the view that we need to used as templatae.
+
+go to mailtrap to send emails.you need to use mailtrap to send emails from local server.
+you have smptp username and password you need to use them to send email.
+change mail_host username port in env file.
+
 add verification code and verification status in user table.
 
 create mailable class for laravel to send emails
